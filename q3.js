@@ -1,9 +1,17 @@
 function primeNumber(a) {
   if (a <= 1) {
-    return "No";
+      return "No";
   }
-  for (let i = 2; i <= Math.sqrt(a); i++) {
-    if (a % i === 0) return "No";
+  if (a === 2) {
+      return "Yes";
+  }
+  if (a % 2 === 0) {
+      return "No";
+  }
+  for (let i = 3; i <= Math.sqrt(a); i += 2) {
+      if (a % i === 0) {
+          return "No";
+      }
   }
   return "Yes";
 }
