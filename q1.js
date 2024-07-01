@@ -10,8 +10,6 @@ function typeChecker(a, b) {
     }
 }
 
-
-
 //Test cases
 const a1 = "Jack";
 const b1 = "Rose";
