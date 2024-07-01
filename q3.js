@@ -1,5 +1,7 @@
 function primeNumber(a) {
-  if (a <= 1) return "No";
+  if (a <= 1) {
+    return "No";
+  }
   for (let i = 2; i <= a / 2; i++) {
     if (a % i === 0) return "No";
   }
