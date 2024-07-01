@@ -26,3 +26,4 @@ console.log(primeNumber(d2));
 console.log(primeNumber(d3)); 
 
 module.exports = primeNumber;
+//ชนะชัย ชำนาญหมอ 660612140
